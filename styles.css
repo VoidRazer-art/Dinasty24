@@ -107,7 +107,7 @@ section {
     }
 
     /* Garante que "Membros" não suma no mobile */
-    .membros {
+    .contato {
         display: block !important;
     }
 
