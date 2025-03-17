@@ -94,6 +94,13 @@ section {
     background-size: cover;
     background-position: center;
 
+.membros-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 10px;
+}
+
 /* Ajuste para mobile */
 @media (max-width: 768px) {
     /* Barra superior (Dinasty) ajustada para telas menores */
